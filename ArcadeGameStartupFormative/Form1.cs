@@ -24,7 +24,7 @@ namespace ArcadeGameStartupFormative
 
         private void playButton1_Click(object sender, EventArgs e)
         {
-            // Play Sound
+            // Play Sound // more commetns
             SoundPlayer player = new SoundPlayer(Properties.Resources.atari);
             player.Play();
 
